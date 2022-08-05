@@ -12,7 +12,7 @@ const Home = (props: Props) => {
       <Navbar />
       <Container>
         <MovieForm />
-        <MovieList />
+        {/* <MovieList /> */}
       </Container>
     </>
   );

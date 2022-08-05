@@ -1,13 +1,15 @@
 import React from "react";
 
+// styles
+import GlobalStyles from "./styles/GlobalStyles";
+
 // components
-import Navbar from "./components/Navbar/Navbar";
-import MovieList from "./components/MovieList/MovieList";
 import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <>
+      <GlobalStyles />
       <Home />
     </>
   );
